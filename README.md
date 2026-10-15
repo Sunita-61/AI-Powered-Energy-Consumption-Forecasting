@@ -57,6 +57,32 @@ All services are accessible through a single entry point:
 
 ---
 
+## 🖥️ Interactive Dashboard Showcase
+
+The unified dashboard operates at **`http://localhost:8501/`** with real-time grid monitoring, 24-hour autoregressive forecasting, and scenario simulations:
+
+### 1. 24-Hour Grid Demand Forecasting & Live Telemetry Monitor
+Real-time national demand telemetry (`240,000 MW`), live feed status badges (`● FRESH`), key projected demand metrics, and the next-24-hour recursive prediction curve.
+
+![24-Hour Grid Demand Forecast](images/dashboard_forecast_overview.png)
+
+### 2. Empirical Chronological Model Benchmarks
+Side-by-side benchmark comparison of Seasonal-Naive baseline, Linear Regression, and Random Forest Regressor evaluated on identical chronological holdout partitions without target leakage.
+
+![Model Benchmarks](images/dashboard_model_benchmarks.png)
+
+### 3. Demand-Response & Peak Shaving What-If Scenario
+Interactive peak curtailment simulation (5% to 30% reduction) demonstrating mathematical energy conservation during evening lighting peaks (17:00–20:00) with off-peak rebound recovery.
+
+![Load-Shifting Simulation](images/dashboard_peak_shaving.png)
+
+### 4. Data Provenance, Licensing & Ethical Attributes
+Attribution for primary historical data (Mendeley Data DOI: `10.17632/y58jknpgs8.2`, CC BY 4.0), candidate live aggregator verification, and official National Power Portal (NPP) fallback references.
+
+![Data Provenance and Licensing](images/dashboard_data_provenance.png)
+
+---
+
 ## 📂 Project Structure
 
 ```text
