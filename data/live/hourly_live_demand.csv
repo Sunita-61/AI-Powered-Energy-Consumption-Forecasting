@@ -1,0 +1,5 @@
+observation_time_utc,retrieval_time_utc,demand_mw,unit,data_age_min,source
+2026-10-15T08:30:00+00:00,2026-10-15T09:10:35.610611+00:00,240000.0,MW,40.6,Candidate Aggregator (source: vidyut_pravah)
+2026-10-15T08:45:00+00:00,2026-10-15T09:26:16.959286+00:00,240000.0,MW,41.3,Candidate Aggregator (source: vidyut_pravah)
+2026-10-15T09:00:00+00:00,2026-10-15T09:37:10.937313+00:00,243000.0,MW,37.2,Candidate Aggregator (source: vidyut_pravah)
+2026-10-15T09:45:00+00:00,2026-10-15T10:26:54.936088+00:00,246000.0,MW,41.9,Candidate Aggregator (source: vidyut_pravah)

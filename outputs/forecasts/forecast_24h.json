@@ -1,0 +1,203 @@
+{
+  "metadata": {
+    "forecast_origin": "2021-11-30 23:00:00",
+    "horizon_hours": 24,
+    "model_name": "RandomForestRegressor",
+    "unit": "MW",
+    "is_synthetic": false
+  },
+  "forecast": [
+    {
+      "timestamp": "2021-12-01 00:00:00",
+      "forecast_origin": "2021-11-30 23:00:00",
+      "demand_mw": 122934.94,
+      "model_name": "RandomForestRegressor",
+      "unit": "MW",
+      "horizon_step": 1
+    },
+    {
+      "timestamp": "2021-12-01 01:00:00",
+      "forecast_origin": "2021-11-30 23:00:00",
+      "demand_mw": 121110.52,
+      "model_name": "RandomForestRegressor",
+      "unit": "MW",
+      "horizon_step": 2
+    },
+    {
+      "timestamp": "2021-12-01 02:00:00",
+      "forecast_origin": "2021-11-30 23:00:00",
+      "demand_mw": 119076.98,
+      "model_name": "RandomForestRegressor",
+      "unit": "MW",
+      "horizon_step": 3
+    },
+    {
+      "timestamp": "2021-12-01 03:00:00",
+      "forecast_origin": "2021-11-30 23:00:00",
+      "demand_mw": 115739.71,
+      "model_name": "RandomForestRegressor",
+      "unit": "MW",
+      "horizon_step": 4
+    },
+    {
+      "timestamp": "2021-12-01 04:00:00",
+      "forecast_origin": "2021-11-30 23:00:00",
+      "demand_mw": 112902.16,
+      "model_name": "RandomForestRegressor",
+      "unit": "MW",
+      "horizon_step": 5
+    },
+    {
+      "timestamp": "2021-12-01 05:00:00",
+      "forecast_origin": "2021-11-30 23:00:00",
+      "demand_mw": 115318.2,
+      "model_name": "RandomForestRegressor",
+      "unit": "MW",
+      "horizon_step": 6
+    },
+    {
+      "timestamp": "2021-12-01 06:00:00",
+      "forecast_origin": "2021-11-30 23:00:00",
+      "demand_mw": 132433.84,
+      "model_name": "RandomForestRegressor",
+      "unit": "MW",
+      "horizon_step": 7
+    },
+    {
+      "timestamp": "2021-12-01 07:00:00",
+      "forecast_origin": "2021-11-30 23:00:00",
+      "demand_mw": 141838.29,
+      "model_name": "RandomForestRegressor",
+      "unit": "MW",
+      "horizon_step": 8
+    },
+    {
+      "timestamp": "2021-12-01 08:00:00",
+      "forecast_origin": "2021-11-30 23:00:00",
+      "demand_mw": 146938.39,
+      "model_name": "RandomForestRegressor",
+      "unit": "MW",
+      "horizon_step": 9
+    },
+    {
+      "timestamp": "2021-12-01 09:00:00",
+      "forecast_origin": "2021-11-30 23:00:00",
+      "demand_mw": 147374.66,
+      "model_name": "RandomForestRegressor",
+      "unit": "MW",
+      "horizon_step": 10
+    },
+    {
+      "timestamp": "2021-12-01 10:00:00",
+      "forecast_origin": "2021-11-30 23:00:00",
+      "demand_mw": 149634.64,
+      "model_name": "RandomForestRegressor",
+      "unit": "MW",
+      "horizon_step": 11
+    },
+    {
+      "timestamp": "2021-12-01 11:00:00",
+      "forecast_origin": "2021-11-30 23:00:00",
+      "demand_mw": 151720.04,
+      "model_name": "RandomForestRegressor",
+      "unit": "MW",
+      "horizon_step": 12
+    },
+    {
+      "timestamp": "2021-12-01 12:00:00",
+      "forecast_origin": "2021-11-30 23:00:00",
+      "demand_mw": 153070.27,
+      "model_name": "RandomForestRegressor",
+      "unit": "MW",
+      "horizon_step": 13
+    },
+    {
+      "timestamp": "2021-12-01 13:00:00",
+      "forecast_origin": "2021-11-30 23:00:00",
+      "demand_mw": 151766.22,
+      "model_name": "RandomForestRegressor",
+      "unit": "MW",
+      "horizon_step": 14
+    },
+    {
+      "timestamp": "2021-12-01 14:00:00",
+      "forecast_origin": "2021-11-30 23:00:00",
+      "demand_mw": 150823.48,
+      "model_name": "RandomForestRegressor",
+      "unit": "MW",
+      "horizon_step": 15
+    },
+    {
+      "timestamp": "2021-12-01 15:00:00",
+      "forecast_origin": "2021-11-30 23:00:00",
+      "demand_mw": 149817.46,
+      "model_name": "RandomForestRegressor",
+      "unit": "MW",
+      "horizon_step": 16
+    },
+    {
+      "timestamp": "2021-12-01 16:00:00",
+      "forecast_origin": "2021-11-30 23:00:00",
+      "demand_mw": 148470.87,
+      "model_name": "RandomForestRegressor",
+      "unit": "MW",
+      "horizon_step": 17
+    },
+    {
+      "timestamp": "2021-12-01 17:00:00",
+      "forecast_origin": "2021-11-30 23:00:00",
+      "demand_mw": 146577.45,
+      "model_name": "RandomForestRegressor",
+      "unit": "MW",
+      "horizon_step": 18
+    },
+    {
+      "timestamp": "2021-12-01 18:00:00",
+      "forecast_origin": "2021-11-30 23:00:00",
+      "demand_mw": 148813.46,
+      "model_name": "RandomForestRegressor",
+      "unit": "MW",
+      "horizon_step": 19
+    },
+    {
+      "timestamp": "2021-12-01 19:00:00",
+      "forecast_origin": "2021-11-30 23:00:00",
+      "demand_mw": 148227.68,
+      "model_name": "RandomForestRegressor",
+      "unit": "MW",
+      "horizon_step": 20
+    },
+    {
+      "timestamp": "2021-12-01 20:00:00",
+      "forecast_origin": "2021-11-30 23:00:00",
+      "demand_mw": 143651.08,
+      "model_name": "RandomForestRegressor",
+      "unit": "MW",
+      "horizon_step": 21
+    },
+    {
+      "timestamp": "2021-12-01 21:00:00",
+      "forecast_origin": "2021-11-30 23:00:00",
+      "demand_mw": 139131.14,
+      "model_name": "RandomForestRegressor",
+      "unit": "MW",
+      "horizon_step": 22
+    },
+    {
+      "timestamp": "2021-12-01 22:00:00",
+      "forecast_origin": "2021-11-30 23:00:00",
+      "demand_mw": 134210.07,
+      "model_name": "RandomForestRegressor",
+      "unit": "MW",
+      "horizon_step": 23
+    },
+    {
+      "timestamp": "2021-12-01 23:00:00",
+      "forecast_origin": "2021-11-30 23:00:00",
+      "demand_mw": 130454.28,
+      "model_name": "RandomForestRegressor",
+      "unit": "MW",
+      "horizon_step": 24
+    }
+  ]
+}

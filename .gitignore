@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Large datasets and raw downloads (keep sample and processed benchmarks if small)
+data/raw/*
+!data/raw/.gitkeep
+
+# Live cache and temporary telemetry
+data/cache/*
+!data/cache/.gitkeep
+
+# Output logs and temporary artifacts
+outputs/logs/*
+!outputs/logs/.gitkeep
+
+# OS specific
+.DS_Store
+Thumbs.db

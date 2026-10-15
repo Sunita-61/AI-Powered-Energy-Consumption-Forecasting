@@ -1,0 +1,46 @@
+{
+  "target_variable": "demand_mw",
+  "target_unit": "MW",
+  "split_summary": {
+    "total_samples": 2016,
+    "train_samples": 1411,
+    "val_samples": 302,
+    "test_samples": 303,
+    "train_range": [
+      "2021-09-08 00:00:00",
+      "2021-11-05 18:00:00"
+    ],
+    "val_range": [
+      "2021-11-05 19:00:00",
+      "2021-11-18 08:00:00"
+    ],
+    "test_range": [
+      "2021-11-18 09:00:00",
+      "2021-11-30 23:00:00"
+    ]
+  },
+  "validation_metrics": {
+    "SeasonalNaiveBaseline": {
+      "MAE": 3288.6124,
+      "RMSE": 4751.3861,
+      "WAPE": 2.3598
+    },
+    "LinearRegression": {
+      "MAE": 3931.0212,
+      "RMSE": 5074.8572,
+      "WAPE": 2.8208
+    },
+    "RandomForestRegressor": {
+      "MAE": 2968.7698,
+      "RMSE": 4184.055,
+      "WAPE": 2.1303
+    }
+  },
+  "test_metrics": {
+    "RandomForestRegressor": {
+      "MAE": 3475.2563,
+      "RMSE": 8258.7765,
+      "WAPE": 2.4739
+    }
+  }
+}

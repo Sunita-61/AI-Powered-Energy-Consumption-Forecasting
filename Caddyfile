@@ -1,0 +1,24 @@
+# Caddy Reverse Proxy Configuration for AI-Energy-Forecasting
+# Binds to the single public entrypoint: http://localhost:8501
+
+:8501 {
+    # 1. Route FastAPI REST endpoints and interactive Swagger UI to port 8000
+    handle /api/* {
+        reverse_proxy 127.0.0.1:8000 {
+            header_up Host {host}
+            header_up X-Real-IP {remote}
+            header_up X-Forwarded-For {remote}
+            header_up X-Forwarded-Proto {scheme}
+        }
+    }
+
+    # 2. Route Streamlit application & interactive WebSocket channels to port 8502
+    handle {
+        reverse_proxy 127.0.0.1:8502 {
+            header_up Host {host}
+            header_up X-Real-IP {remote}
+            header_up X-Forwarded-For {remote}
+            header_up X-Forwarded-Proto {scheme}
+        }
+    }
+}
